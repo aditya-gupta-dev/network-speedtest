@@ -42,4 +42,5 @@ print('saving results....')
 
 with open('results.json', 'w') as file:
     file.write(json.dumps(results))
+    
 print('resutls saved in `results.json`')
