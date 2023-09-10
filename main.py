@@ -37,3 +37,9 @@ while i < 5:
 
 print(f'Avg Download speed -> {sum(down)/len(down)} mbps')
 print(f'Avg Upload speed -> {sum(up)/len(up)} mbps')
+
+print('saving results....')
+
+with open('results.json', 'w') as file:
+    file.write(json.dumps(results))
+print('resutls saved in `results.json`')
