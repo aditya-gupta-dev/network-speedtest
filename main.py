@@ -1,7 +1,9 @@
 import speedtest
-import time 
+import time
+import json
 
 st = speedtest.Speedtest()
+results = []
 
 st.get_best_server()
 
