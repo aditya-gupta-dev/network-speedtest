@@ -21,6 +21,11 @@ while i < 5:
     down.append(download_speed_mbps)
     up.append(upload_speed_mbps)
 
+    results.append({
+        'download_speed_mbps': download_speed_mbps,
+        'upload_speed_mbps: up_speed_mbps
+    })
+
     print(f"Download speed: {download_speed_mbps:.2f} Mbps")
     print(f"Upload speed: {upload_speed_mbps:.2f} Mbps")
 
