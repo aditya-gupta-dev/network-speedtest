@@ -5,10 +5,7 @@ st = speedtest.Speedtest()
 
 st.get_best_server()
 
-i = 0
-
-down = []
-up = [] 
+i, down, up = 0, [], []
 
 while i < 5:
     print(f'test number {i+1} started..')
