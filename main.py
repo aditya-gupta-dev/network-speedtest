@@ -22,6 +22,8 @@ while i < 5:
     up.append(upload_speed_mbps)
 
     results.append({
+        'download_speed': download_speed,
+        'upload_speed': upload_speed,
         'download_speed_mbps': download_speed_mbps,
         'upload_speed_mbps': up_speed_mbps
     })
